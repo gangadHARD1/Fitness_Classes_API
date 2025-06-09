@@ -1,0 +1,12 @@
+INFO 2025-06-08 22:02:27,946 views Received GET request for fitness classes.
+DEBUG 2025-06-08 22:02:28,054 views Retrieved 3 fitness classes scheduled after 2025-06-09 08:32:27.948862
+INFO 2025-06-08 22:02:28,054 views no explicit time zone given
+INFO 2025-06-08 22:17:14,570 views Received request to book a fitness class.
+DEBUG 2025-06-08 22:17:14,570 views client request parameters - class_id: None, client_name: None, client_email: None
+ERROR 2025-06-08 22:17:14,570 views Missing required parameters
+INFO 2025-06-08 22:17:37,940 views Received request to book a fitness class.
+DEBUG 2025-06-08 22:17:37,941 views client request parameters - class_id: None, client_name: None, client_email: None
+ERROR 2025-06-08 22:17:37,944 views Missing required parameters
+INFO 2025-06-08 22:18:42,857 views Received request to book a fitness class.
+DEBUG 2025-06-08 22:18:42,859 views client request parameters - class_id: 1, client_name: Test User, client_email: test@test.com
+INFO 2025-06-08 22:21:47,868 views Received request to retrieve bookings for a client.
