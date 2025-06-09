@@ -23,7 +23,7 @@ class FitnessClass(models.Model):
         else:
             try:
                 local_time = ist_aware_time.astimezone(ZoneInfo(time_zone))  
-                print("hereeeeeee",local_time,ist_aware_time)
+               
                       # Step 2: convert
             except Exception as e:
                 print("here2222",e)
